@@ -2,6 +2,19 @@
   <img src="icon.png" alt="Opsi Pengembang" width="140">
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Android-4.2%2B%20sampai%2014-green" alt="Android">
+  <img src="https://img.shields.io/badge/Version-v1000-blue" alt="Version">
+  <img src="https://img.shields.io/badge/Platform-Universal-orange" alt="Platform">
+  <img src="https://img.shields.io/badge/License-Bebas%20digunakan-lightgrey" alt="License">
+</p>
+
+<p align="center">
+  <a href="https://github.com/ainnefasarome/opsi-pengembang/releases/latest">
+    <img src="https://img.shields.io/badge/%E2%AC%87%20Download%20APK%20v1000-success?style=for-the-badge" alt="Download APK">
+  </a>
+</p>
+
 # Opsi Pengembang
 
 Aplikasi Android ringan tanpa tampilan (non-UI) yang berfungsi sebagai **jembatan pintar** menuju halaman **Build Number** di pengaturan HP, supaya pengguna tinggal mengetuk **7 kali** untuk mengaktifkan **Opsi Pengembang** - tanpa harus bingung mencari sendiri.
@@ -36,6 +49,23 @@ Menu Developer Options sudah ada sejak era awal Android, namun **disembunyikan d
 - **Bug Report / Logger** - mengambil log sistem untuk diagnosa masalah.
 - **Dan puluhan fitur teknis lainnya** - tergantung versi Android dan merek HP.
 
+## Izin yang Dibutuhkan
+
+Aplikasi ini membutuhkan **satu izin** saja, yaitu **Aksesibilitas (Accessibility Service)**.
+
+**Kenapa butuh aksesibilitas?**
+Aksesibilitas adalah satu-satunya cara yang disediakan Android untuk aplikasi bisa membaca isi layar dan melakukan ketukan otomatis. Tanpa izin ini, aplikasi hanya bisa membuka halaman Tentang Ponsel, tetapi tidak bisa mencari Build Number atau mengetuknya 7x secara otomatis.
+
+**Apakah aman?**
+- Tidak ada data yang dikumpulkan.
+- Tidak ada data yang dikirim ke server mana pun.
+- Tidak ada koneksi internet yang dibuka.
+- Aplikasi bekerja sepenuhnya offline dan lokal di HP kamu.
+- Kode sumber dapat diperiksa sendiri karena aplikasi ini bebas digunakan.
+
+**Bisa dimatikan kapan saja?**
+Bisa. Matikan toggle di **Settings - Aksesibilitas - Opsi Pengembang Otomatis** kapan pun kamu mau.
+
 ## Kompatibilitas
 
 | Item | Keterangan |
@@ -59,6 +89,26 @@ Beberapa HP dengan proteksi khusus (Xiaomi HyperOS terbaru, Samsung Knox enterpr
    - Masuk ke submenu yang benar (jika perlu)
    - Mengetuk Build Number 7x
 5. Selesai! Buka Settings - Sistem - Opsi Pengembang.
+
+## FAQ
+
+**Apakah aplikasi ini butuh root?**
+Tidak. Aplikasi berjalan sepenuhnya tanpa root.
+
+**Apakah ada data yang dikirim ke internet?**
+Tidak ada. Aplikasi bekerja offline dan tidak membuka koneksi internet sama sekali.
+
+**Kenapa harus aktifkan aksesibilitas?**
+Karena Android hanya mengizinkan aplikasi membaca layar dan mengetuk otomatis lewat izin aksesibilitas. Ini aturan keamanan dari Android, tidak bisa dilewati.
+
+**Kalau di HP saya gagal, bagaimana?**
+Buka Issue di halaman GitHub ini dengan menyertakan merek, tipe HP, versi Android, dan screenshot halaman Tentang Ponsel. Istilah Build Number yang berbeda akan ditambahkan di update berikutnya.
+
+**Apakah aman untuk HP saya?**
+Aman. Aplikasi hanya membuka pengaturan dan mengetuk Build Number 7 kali. Tidak mengubah data, tidak menghapus apapun, tidak mengakses file pribadi.
+
+**Apakah bisa dipakai di semua HP?**
+Mendukung otomatis sebagian besar merek Android. Beberapa HP dengan proteksi sistem khusus mungkin perlu mengetuk Build Number secara manual setelah aplikasi membuka halamannya.
 
 ## Kontribusi
 
