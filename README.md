@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Android-4.2%2B%20sampai%2014-green" alt="Android">
   <img src="https://img.shields.io/badge/Version-v1000-blue" alt="Version">
   <img src="https://img.shields.io/badge/Platform-Universal-orange" alt="Platform">
-  <img src="https://img.shields.io/badge/License-Bebas%20digunakan-lightgrey" alt="License">
+  <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
 </p>
 
 <p align="center">
@@ -118,3 +118,13 @@ Kalau aplikasi ini gagal di HP kamu, buka Issue dengan menyertakan:
 - Screenshot halaman Tentang Ponsel
 
 Kontribusi keyword baru sangat diterima demi cakupan yang lebih luas.
+
+---
+
+## Lisensi
+
+Repositori ini dipakai untuk dokumentasi dan distribusi rilis APK. Dirilis di bawah [Lisensi MIT](LICENSE).
+
+---
+
+<p align="center">Dibuat oleh <a href="https://ainnefasarome.github.io/Banghans.dev/">Banghans</a> · Hans Developer</p>
